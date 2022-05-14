@@ -50,7 +50,7 @@ function viewSuggestion(res) {
     return;
   }
 
-  //================================
+  //=======================================================
   //to clean suggestin before fetching
   if (res.hits[0] == 1) {
     document.querySelector("#sugges__ul").innerHTML = "";
