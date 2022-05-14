@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png");
+}
+#container {
+  overflow-y: scroll;
+  height: 100vh;
+}
+#navbar {
+  height: 60px;
+  width: 100%;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+}
+.navbar--middle {
+  height: 35px;
+}
+#search__box {
+  border-radius: 3px;
+  padding: 15px;
+  height: 50%;
+  width: 90%;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #5e5d85;
+  color: #b1b1c5;
+  border: 0px solid white;
+}
+#suggestion {
+  visibility: hidden;
+  margin-top: 10px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(232, 225, 225); */
+}
+#suggestion > ul {
+  padding: 10px;
+  border-radius: 3px;
+  list-style: none;
+  background-color: rgb(255, 255, 255);
+}
+#suggestion > ul > li {
+  padding: 5px 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#suggestion > ul > li:hover {
+  background-color: #eaeaea;
+}
+.suggestion_img {
+  width: 50px;
+  height: 25px;
+  border-radius: 5px;
+  float: right;
+  margin: 2px;
+}
+/* #suggestion > ul > li:nth-child(2n + 1) {
+  background-color: rgb(141, 140, 139);
+} */
+.navbar--left {
+  margin: 0px 20px;
+  display: flex;
+}
+.navbar--left--post,
+.navbar--right--goFreeAdd-btn {
+  margin: 0px 10px;
+  padding: 5px;
+  height: 35px;
+  width: 120px;
+  border-radius: 3px;
+  background-color: #33be7d;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#new--post {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+.navbar--left--post > #plus {
+  border-radius: 2px;
+  background-color: white;
+  height: 15px;
+  width: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar--right {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 8px;
+  /* background-color: #c5bfd5; */
+}
+.navbar--right--goFreeAdd-btn {
+  background-color: #6432f9;
+}
+#goFreeAdd-btn {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+#support_ukraine {
+  display: flex;
+  align-items: center;
+}
+#support-img {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+}
+#user__name__div {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+#user__name {
+  color: white;
+}
+#dashboard--img {
+  height: 30px;
+  width: 30px;
+}
+#looking__for {
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+#looking__for span {
+  color: #aed8ea;
+  font-size: 20px;
+  font-weight: bold;
+}
+#recent__memes {
+  margin-top: 50px;
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+}
+.recent--memes--img {
+  border-radius: 2px;
+  width: auto;
+  height: 110px;
+}
+#memes__collection {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto;
+  /* grid-template-rows: auto auto; */
+  /* justify-content: center; */
+  /* grid-auto-rows: minmax(min-content, max-content); */
+  /* grid-auto-rows: auto; */
+  gap: 10px;
+  /* display: inline-grid; */
+  /* grid-template-columns: 100%; */
+  /* row-gap: 50px; */
+  /* grid-template-rows: 100px; top row is 100px in height */
+  /*grid-auto-rows: 200px; /* any new rows created are 200px in height */
+}
+.recent--coll--img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 0px 0px;
+  border: 2px solid transparent;
+}
+.memes--coll--img {
+  width: 100%;
+  height: 90%;
+  border-radius: 10px 10px 0px 0px;
+  border: 2px solid transparent;
+}
+.recent-card {
+  height: 150px;
+  width: 8%;
+  border-radius: 5px;
+}
+.recent-card:hover {
+  position: relative;
+  bottom: 10px;
+}
+.memes-card {
+  height: 400px;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.memes-card:hover {
+  position: relative;
+  bottom: 10px;
+}
+.memes--footer {
+  height: 15%;
+  width: 100%;
+  background: #2e3035;
+  color: white;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 15px;
+}
