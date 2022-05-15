@@ -28,7 +28,7 @@ Start
 
 ## Snapshots 📷
 
-![](https://github.com/Upendra-99/Quora-Clone/blob/master/quora-website/src/images/quora_image1.png?raw=true)
+![](https://github.com/Upendra-99/imgur-clone/blob/main/image/imgur.png?raw=true)
 
 ## Demo 🎥
 
