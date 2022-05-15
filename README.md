@@ -14,7 +14,7 @@ Imgur Clone - Imgur is an American online image service where you’ll find the 
 Clone the project
 
 ```bash
-  git clone https://github.com/Upendra-99/Quora-Clone.git
+  git clone https://github.com/Upendra-99/imgur-clone.git
 ```
 
 Go to the project directory
